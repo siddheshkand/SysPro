@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sid/Projects/SysPro/01/Smac0.c">
+			<Option target="SysPro"/>
+		</Unit>
 		<Unit filename="/home/sid/Projects/SysPro/main.c">
 			<Option target="SysPro"/>
 		</Unit>

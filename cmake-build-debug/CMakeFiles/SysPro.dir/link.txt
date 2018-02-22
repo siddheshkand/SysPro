@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/SysPro.dir/main.c.o  -o SysPro 
+/usr/bin/cc -g   CMakeFiles/SysPro.dir/main.c.o CMakeFiles/SysPro.dir/01/Smac0.c.o  -o SysPro 

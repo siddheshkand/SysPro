@@ -123,6 +123,33 @@ SysPro/fast:
 	$(MAKE) -f CMakeFiles/SysPro.dir/build.make CMakeFiles/SysPro.dir/build
 .PHONY : SysPro/fast
 
+01/Smac0.o: 01/Smac0.c.o
+
+.PHONY : 01/Smac0.o
+
+# target to build an object file
+01/Smac0.c.o:
+	$(MAKE) -f CMakeFiles/SysPro.dir/build.make CMakeFiles/SysPro.dir/01/Smac0.c.o
+.PHONY : 01/Smac0.c.o
+
+01/Smac0.i: 01/Smac0.c.i
+
+.PHONY : 01/Smac0.i
+
+# target to preprocess a source file
+01/Smac0.c.i:
+	$(MAKE) -f CMakeFiles/SysPro.dir/build.make CMakeFiles/SysPro.dir/01/Smac0.c.i
+.PHONY : 01/Smac0.c.i
+
+01/Smac0.s: 01/Smac0.c.s
+
+.PHONY : 01/Smac0.s
+
+# target to generate assembly for a file
+01/Smac0.c.s:
+	$(MAKE) -f CMakeFiles/SysPro.dir/build.make CMakeFiles/SysPro.dir/01/Smac0.c.s
+.PHONY : 01/Smac0.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SysPro"
+	@echo "... 01/Smac0.o"
+	@echo "... 01/Smac0.i"
+	@echo "... 01/Smac0.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
